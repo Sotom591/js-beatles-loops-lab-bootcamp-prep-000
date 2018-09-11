@@ -15,6 +15,7 @@ const facts = ["He was the last Beatle to learn to drive",
 
 function johnLennonFacts(facts)
 { 
+<<<<<<< HEAD
 
   var eFacts = [];
   
@@ -38,3 +39,24 @@ function iLoveTheBeatles(n){
 while (n < 15);
 
 return loveArray;}
+=======
+  
+  let i = 0;
+     while (i < facts.length){
+    i++;
+    var johnFacts = newFacts.push(facts[i] + "!!!");
+      return johnFacts;
+       
+     }
+} 
+
+function iLoveTheBeatles(n){
+  n = n + 1;
+  var someArray = [];
+
+}
+ do {
+   someArray.toString("I love the Beatles!");
+ }
+while (n > 7, n <= 15);
+>>>>>>> 154f9a367664d8fb2e375d93cc2f4f4789d24a35
